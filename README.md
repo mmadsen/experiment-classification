@@ -86,5 +86,11 @@ This will generate a LOT of console output -- Apache Pig is running the show, an
 
 At the end of the processing chain, the script will indicate the filename of the "completed" dataset.  This file will not have any header with column names.  In the `rawdata` directory, the file `averaged-columns.txt` file contains the header row.  This is usefully prepended prior to import to R, but is kept separate depending upon the next step in analysis....
 
+This final dataset file will be named after the final processing step:
 
+`output/grouped-average-postclassification.csv`
+
+This file can be copied to the `data` directory for further analysis, where it has been renamed for obvious identification during analysis:
+
+`data/classification-experiment-neutral-dataset.csv`
 
