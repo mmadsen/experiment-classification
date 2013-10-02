@@ -1,0 +1,8 @@
+
+rmf output/merged-reduced-postclassification-records
+
+merged = load 'output/merged-postclassification-records.csv' using PigStorage(',') as (classification_id,classification_type,dimensionality,classification_coarseness,simulation_time,replication,sample_size,population_size,mutation_rate,simulation_run_id,class_richness,class_evenness_iqv,class_shannon_entropy,design_space_occupation,simulation_run_id2,simulation_time2,replication2,sample_size2,population_size2,mutation_rate2,dimensionality2,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv);
+
+cleaned = foreach merged generate classification_id,classification_type,dimensionality,classification_coarseness,simulation_time,replication,sample_size,population_size,mutation_rate,simulation_run_id,class_richness,class_evenness_iqv,class_shannon_entropy,design_space_occupation,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv;
+
+store cleaned into 'output/merged-reduced-postclassification-records' using PigStorage(',');

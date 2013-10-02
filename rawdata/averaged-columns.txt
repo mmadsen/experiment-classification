@@ -1,0 +1,1 @@
+classification_id,simulation_run_id,dimensionality,sample_size,population_size,mutation_rate,classification_type, classification_coarseness, num_records_aggregated, class_richness, class_iqv, class_entropy, design_space_occupation, trait_richness, trait_entropy, trait_iqv
