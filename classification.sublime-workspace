@@ -11,7 +11,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 5848,
+				"buffer_size": 6162,
 				"line_ending": "Unix"
 			}
 		},
@@ -130,15 +130,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5848,
+						"buffer_size": 6162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								968,
-								968
+								6160,
+								6160
 							]
 						],
 						"settings":
@@ -146,7 +146,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1362.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
