@@ -1,3 +1,0 @@
-### Replicating Simulations ###
-
-
