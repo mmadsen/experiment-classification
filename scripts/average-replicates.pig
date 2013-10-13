@@ -1,6 +1,6 @@
 rmf output/grouped-average-postclassification
 
-merged = load 'output/merged-reduced-postclassification-records.csv' using PigStorage(',') as (classification_id,classification_type,dimensionality,classification_coarseness,simulation_time,replication,sample_size,population_size,mutation_rate,simulation_run_id,class_richness,class_evenness_iqv,class_shannon_entropy,design_space_occupation,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv);
+merged = load 'output/clean-numerics-postmergereduce.csv' using PigStorage(',') as (classification_id,classification_type,dimensionality,classification_coarseness,simulation_time,replication,sample_size,population_size,mutation_rate,simulation_run_id,class_richness,class_evenness_iqv,class_shannon_entropy,design_space_occupation,class_neutrality_slatkin,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv,mean_neutrality_slatkin);
 
 -- Each simulation_run_id has a number of replicates, done internally in simuPOP, with the same basic parameters (mutation rate and population size)
 -- In addition, we take multiple samples from each simulation replicate after it reaches stationarity.  
@@ -20,8 +20,9 @@ describe grouped;
 averaged = foreach grouped {
 	dist = distinct merged.(classification_id,simulation_run_id,dimensionality,sample_size,population_size,mutation_rate,classification_type, classification_coarseness);
 	generate FLATTEN(dist), AVG(merged.class_richness) as class_richness, AVG(merged.class_evenness_iqv) as class_iqv, 
-		AVG(merged.class_shannon_entropy) as class_entropy, AVG(merged.design_space_occupation) as design_space_occupation, 
-		AVG(merged.mean_trait_richness) as trait_richness, AVG(merged.mean_evenness_shannon_entropy) as trait_entropy, AVG(merged.mean_evenness_iqv) as trait_iqv;
+		AVG(merged.class_shannon_entropy) as class_entropy, AVG(merged.design_space_occupation) as design_space_occupation, AVG(merged.class_neutrality_slatkin) as class_neutrality_slatkin,
+		AVG(merged.mean_trait_richness) as trait_richness, AVG(merged.mean_evenness_shannon_entropy) as trait_entropy, AVG(merged.mean_evenness_iqv) as trait_iqv,
+		AVG(merged.mean_neutrality_slatkin) as mean_neutrality_slatkin;
 }
 
 describe averaged;

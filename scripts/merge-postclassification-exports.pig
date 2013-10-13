@@ -3,8 +3,8 @@
 rmf output/merged-postclassification-records
 
 -- Load both files
-classified = load 'rawdata/data_pergeneration_stats_postclassification_noheader.csv' using PigStorage(',') as (classification_id,classification_type,dimensionality,classification_coarseness,simulation_time,replication,sample_size,population_size,mutation_rate,simulation_run_id,class_richness,class_evenness_iqv,class_shannon_entropy,design_space_occupation);
-traitsonly = load 'rawdata/data_pergeneration_stats_traits_noheader.csv' using PigStorage(',') as (simulation_run_id,simulation_time,replication,sample_size,population_size,mutation_rate,dimensionality,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv);
+classified = load 'rawdata/data_pergeneration_stats_postclassification_noheader.csv' using PigStorage(',') as (classification_id,classification_type,dimensionality,classification_coarseness,simulation_time,replication,sample_size,population_size,mutation_rate,simulation_run_id,class_richness,class_evenness_iqv,class_shannon_entropy,design_space_occupation,class_neutrality_slatkin);
+traitsonly = load 'rawdata/data_pergeneration_stats_traits_noheader.csv' using PigStorage(',') as (simulation_run_id,simulation_time,replication,sample_size,population_size,mutation_rate,dimensionality,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv,mean_neutrality_slatkin);
 
 -- do the join as a fragment-replicate join, using traits almost like a lookup table, to add its values to the larger data set
 -- the simulation_run_id implies a specific mutation rate and population size, so we don't have to repeat those as keys
