@@ -11,7 +11,15 @@
 			"file": "scripts/run-all-steps.sh",
 			"settings":
 			{
-				"buffer_size": 915,
+				"buffer_size": 1127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/clean-numerics.pig",
+			"settings":
+			{
+				"buffer_size": 1297,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +27,7 @@
 			"file": "scripts/average-replicates.pig",
 			"settings":
 			{
-				"buffer_size": 2943,
+				"buffer_size": 2932,
 				"line_ending": "Unix"
 			}
 		},
@@ -144,7 +152,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -153,15 +161,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 915,
+						"buffer_size": 1127,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								708,
-								665
+								1127,
+								1127
 							]
 						],
 						"settings":
@@ -176,19 +184,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "scripts/average-replicates.pig",
+					"file": "scripts/clean-numerics.pig",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2943,
+						"buffer_size": 1297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2943,
-								2943
+								1297,
+								1297
 							]
 						],
 						"settings":
@@ -203,6 +211,33 @@
 				},
 				{
 					"buffer": 2,
+					"file": "scripts/average-replicates.pig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2541,
+								2541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Apache Pig/Pig.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "scripts/remove-duplicate-columns-postmerge.pig",
 					"semi_transient": false,
 					"settings":
@@ -229,7 +264,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "scripts/merge-postclassification-exports.pig",
 					"semi_transient": false,
 					"settings":
@@ -264,7 +299,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{

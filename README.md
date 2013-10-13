@@ -3,8 +3,9 @@ experiment-classification
 
 Experiment:  Observing cultural transmission models through archaeological classifications
 
-## Description ##
+## Dependencies ##
 
+Requires user-defined functions for Apache Pig, accessible at [pig-udf-numerics](https://github.com/mmadsen/pig-udf-numerics).
 
 ## Raw Data Note ##
 
