@@ -16,6 +16,14 @@
 			}
 		},
 		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 6290,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "scripts/clean-numerics.pig",
 			"settings":
 			{
@@ -152,7 +160,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -168,8 +176,8 @@
 						"selection":
 						[
 							[
-								1127,
-								1127
+								467,
+								467
 							]
 						],
 						"settings":
@@ -184,6 +192,33 @@
 				},
 				{
 					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "scripts/clean-numerics.pig",
 					"semi_transient": false,
 					"settings":
@@ -210,7 +245,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "scripts/average-replicates.pig",
 					"semi_transient": false,
 					"settings":
@@ -237,7 +272,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "scripts/remove-duplicate-columns-postmerge.pig",
 					"semi_transient": false,
 					"settings":
@@ -264,7 +299,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "scripts/merge-postclassification-exports.pig",
 					"semi_transient": false,
 					"settings":
