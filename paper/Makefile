@@ -1,4 +1,11 @@
-all: 
+.PHONY : clean
+
+pdf:
+	./knit pdf
+	pandoc -s -S --biblio madsen-classification-ct.bib madsen-classification-ct.md --template=madsen-classification-ct-xelatex-template.tex --latex-engine=xelatex -o madsen-classification-ct.tex --natbib --number-sections
+	latexmk -pdf madsen-classification-ct
+	open -a /Applications/Skim.app madsen-classification-ct.pdf
+
 
 github:
 	./knit github
@@ -16,12 +23,6 @@ docx:
 	./knit docx
 	pandoc -s -S --biblio madsen-classification-ct.bib madsen-classification-ct.md --reference-docx=reference.docx -o madsen-classification-ct.docx
 
-
-pdf:
-	./knit pdf
-	pandoc -s -S --biblio madsen-classification-ct.bib madsen-classification-ct.md --template=madsen-classification-ct-xelatex-template.tex --latex-engine=xelatex -o madsen-classification-ct.tex --natbib --number-sections
-	latexmk -pdf madsen-classification-ct
-	open -a /Applications/Skim.app madsen-classification-ct.pdf
 
 
 epub:

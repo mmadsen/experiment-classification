@@ -2,3 +2,17 @@
 rawdata/*
 data/*.csv
 output/*
+.Rproj.user
+*.paux 
+*.lox 
+*.pdfsync 
+*.out 
+*.glg 
+*.gls 
+*.glo 
+*.brf 
+*.ist 
+*.synctex.gz 
+*.bbl 
+*.thm 
+*.spl
