@@ -1,1 +1,4 @@
 *sublime*
+rawdata/*
+data/*.csv
+output/*

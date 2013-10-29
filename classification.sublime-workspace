@@ -7,54 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "scripts/run-all-steps.sh",
-			"settings":
-			{
-				"buffer_size": 1127,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 6290,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/clean-numerics.pig",
-			"settings":
-			{
-				"buffer_size": 1297,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/average-replicates.pig",
-			"settings":
-			{
-				"buffer_size": 2932,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/remove-duplicate-columns-postmerge.pig",
-			"settings":
-			{
-				"buffer_size": 1111,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scripts/merge-postclassification-exports.pig",
-			"settings":
-			{
-				"buffer_size": 1729,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,6 +44,12 @@
 	},
 	"file_history":
 	[
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/merge-postclassification-exports.pig",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/remove-duplicate-columns-postmerge.pig",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/average-replicates.pig",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/clean-numerics.pig",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/run-all-steps.sh",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/README.md",
 		"/Users/mark/Dropbox/Research/Dissertation Project/experiments/experiment-classification/rawdata/merged-reduced-postclassification-records-header.txt",
 		"/Users/mark/Dropbox/Research/Dissertation Project/experiments/experiment-classification/scripts/average-replicates.pig",
 		"/Users/mark/Dropbox/Research/Dissertation Project/experiments/experiment-classification/rawdata/averaged-columns.txt",
@@ -160,171 +118,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scripts/run-all-steps.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								467,
-								467
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scripts/clean-numerics.pig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1297,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1297,
-								1297
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Apache Pig/Pig.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scripts/average-replicates.pig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2932,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2541,
-								2541
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Apache Pig/Pig.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "scripts/remove-duplicate-columns-postmerge.pig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								617,
-								617
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Apache Pig/Pig.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "scripts/merge-postclassification-exports.pig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1159,
-								1159
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Apache Pig/Pig.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

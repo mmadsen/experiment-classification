@@ -1,0 +1,29 @@
+% Quantitative Effects of Archaeological Classification Upon Cultural Transmission Models
+
+
+``` {r libraries, echo=FALSE, cache=FALSE}
+library(ggplot2)
+library(randtoolbox)
+library(xtable)
+options(tikzDefaultEngine = "xetex")
+```
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum mauris quis turpis pellentesque, quis porta arcu varius. Suspendisse dictum at odio id luctus. Curabitur ut tristique nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus molestie at elit a sodales. Vestibulum suscipit leo sed semper facilisis. Nam lacinia lobortis imperdiet. Nulla facilisi. Duis suscipit elementum risus, vitae molestie eros accumsan ut. Nulla facilisi. Praesent quis adipiscing sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+# Previous Research
+
+In an earlier paper [@Lipo1997], we introduced an iterative method for finding deterministic solutions to the frequency seriation problem by partitioning assemblages into subsets, each of which meets the unimodal ordering principle, within tolerance limits governed by sample size.  [@Lipo2001b] extended and refined the method in his dissertation research.  Our initial work on the method employed a combination of automated calculations (e.g., bootstrap significance tests for pairwise orderings), and manual sorting of assemblages into groups and specific positions (using an Excel macro package available at \url{http://lipolab.org/seriation.html}).  
+
+# Conclusions
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum mauris quis turpis pellentesque, quis porta arcu varius. Suspendisse dictum at odio id luctus. Curabitur ut tristique nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus molestie at elit a sodales. Vestibulum suscipit leo sed semper facilisis. Nam lacinia lobortis imperdiet. Nulla facilisi. Duis suscipit elementum risus, vitae molestie eros accumsan ut. Nulla facilisi. Praesent quis adipiscing sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+
+# Acknowledgements
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum mauris quis turpis pellentesque, quis porta arcu varius. Suspendisse dictum at odio id luctus. Curabitur ut tristique nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus molestie at elit a sodales. Vestibulum suscipit leo sed semper facilisis. Nam lacinia lobortis imperdiet. Nulla facilisi. Duis suscipit elementum risus, vitae molestie eros accumsan ut. Nulla facilisi. Praesent quis adipiscing sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+
+

@@ -3,7 +3,9 @@
 
 
 # Take the raw data as exported by CTPy's export_data_to_csv.py script, and snip off the column headers.  
+echo "Cutting off headers from raw exports: postclassification"
 tail -n +2 rawdata/data_pergeneration_stats_postclassification.csv > rawdata/data_pergeneration_stats_postclassification_noheader.csv
+echo "Cutting off headers from raw exports: traits"
 tail -n +2 rawdata/data_pergeneration_stats_traits.csv > rawdata/data_pergeneration_stats_traits_noheader.csv
 
 

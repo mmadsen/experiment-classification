@@ -1,0 +1,97 @@
+
+\documentclass[preprint,times,authoryear,12pt]{elsarticle}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb,amsmath}
+
+
+%%%%%%%%%% Remove the following before submission %%%%%%%%%%%%%%%%%%
+
+\usepackage{mathspec,xltxtra,xunicode}
+%\usepackage{unicode-math}
+\defaultfontfeatures{Scale=MatchLowercase}
+%\setmainfont[Mapping=tex-text,Numbers=OldStyle]{Palatino LT Std}
+\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}
+\setsansfont[Mapping=tex-text]{ITC Legacy Sans Std Medium}
+\setmonofont{Bitstream Vera Sans Mono}
+\setmathfont(Digits,Latin,Greek)[Script=Math,Uppercase=Italic,Lowercase=Italic]{Minion Math Semibold}
+%\setmathfont[range={\mathbfup->\mathup}]{MinionMath-Bold.otf}
+%\setmathfont[range={\mathbfit->\mathit}]{MinionMath-Bold.otf}
+%\setmathfont[range={\mathit->\mathit}]{MinionMath-Bold.otf}
+
+%%%%%%%%%% Remove the above before submission %%%%%%%%%%%%%%%%%%
+
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+\usepackage{lineno}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{bm}
+\usepackage{longtable}
+\usepackage{hyphenat}
+\usepackage{lipsum}
+\usepackage{url}
+\usepackage{diss-macros}
+\usepackage[xetex,bookmarks=true,linkcolor=blue,hyperfootnotes=false,breaklinks=true,citecolor=blue,colorlinks=true]{hyperref}
+
+\journal{Unnamed Journal}
+
+% Pandoc toggle for numbering sections (defaults to be off)
+$if(numbersections)$
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+
+% Pandoc header
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+
+\begin{document}
+
+\begin{frontmatter}
+
+
+\title{Quantitative Effects of Archaeological Classification Upon Cultural Transmission Models}
+
+\author{Mark E. Madsen}
+\address{Department of Anthropology, Box 353100, University of Washington, Seattle WA, 98195 USA}
+\ead{mark@madsenlab.org}
+\ead[url]{http://madsenlab.org}
+
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum mauris quis turpis pellentesque, quis porta arcu varius. Suspendisse dictum at odio id luctus. Curabitur ut tristique nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
+\end{abstract}
+
+\begin{keyword}
+cultural transmission \sep neutral theory \sep coarse graining \sep classification \sep archaeology
+\end{keyword}
+
+
+\end{frontmatter}
+
+$body$
+
+
+%% References with bibTeX database:
+
+\bibliographystyle{model2-names}
+\bibliography{$biblio-files$}
+
+
+
+
+
+
+
+
+
+\end{document}
+
+%%
+%% End of file `elsarticle-template-2-harv.tex'.
