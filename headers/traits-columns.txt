@@ -1,0 +1,1 @@
+simulation_run_id,simulation_time,replication,sample_size,population_size,mutation_rate,dimensionality,mean_trait_richness,mean_evenness_shannon_entropy,mean_evenness_iqv,mean_neutrality_slatkin

@@ -3,6 +3,38 @@
 	{
 		"selected_items":
 		[
+			[
+				"sd_tr",
+				"sd_trait_neutrality_slatkin"
+			],
+			[
+				"mean_trai",
+				"mean_trait_neutrality_slatkin"
+			],
+			[
+				"sd_tra",
+				"sd_trait_entropy"
+			],
+			[
+				"mean_tra",
+				"mean_trait_entropy"
+			],
+			[
+				"sd_cla",
+				"sd_class_neutrality_slatkin"
+			],
+			[
+				"mean",
+				"mean_class_entropy"
+			],
+			[
+				"num",
+				"num_records_aggregated"
+			],
+			[
+				"COUN",
+				"COUNT_STAR"
+			]
 		]
 	},
 	"buffers":
@@ -44,10 +76,20 @@
 	},
 	"file_history":
 	[
-		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/merge-postclassification-exports.pig",
-		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/remove-duplicate-columns-postmerge.pig",
 		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/average-replicates.pig",
 		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/clean-numerics.pig",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/R/load-datasets.r",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/paper/madsen-classification-ct.Rmd",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/rawdata/postclassification-columns.txt",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/rawdata/clean-numerics-postmergereduce-header.txt",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/R/eda-classification-grouped.r",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/paper/madsen-classification-ct-xelatex-template.tex",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/paper/Makefile",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/.gitignore",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/paper/xelatex-rmarkdown-template.tex",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/paper/knit",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/merge-postclassification-exports.pig",
+		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/remove-duplicate-columns-postmerge.pig",
 		"/Users/mark/local-research/diss/experiments/experiment-classification/scripts/run-all-steps.sh",
 		"/Users/mark/local-research/diss/experiments/experiment-classification/README.md",
 		"/Users/mark/Dropbox/Research/Dissertation Project/experiments/experiment-classification/rawdata/merged-reduced-postclassification-records-header.txt",
@@ -97,6 +139,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"seriationcombinatorics",
 			"**",
 			"navbar",
 			"javascript",
@@ -183,7 +226,7 @@
 		[
 			[
 				"",
-				"~/local-research/diss/experiments/classification/classification.sublime-project"
+				"~/Dropbox/Research/websites/lnraw/lnraw.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -203,7 +246,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 359.0,
+	"side_bar_width": 260.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
