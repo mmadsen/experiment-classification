@@ -1,3 +1,4 @@
+*.RData
 *sublime*
 rawdata/*
 data/*.csv

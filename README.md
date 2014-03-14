@@ -5,7 +5,12 @@ Experiment:  Observing cultural transmission models through archaeological class
 
 ## Dependencies ##
 
-Requires user-defined functions for Apache Pig, accessible at [pig-udf-numerics](https://github.com/mmadsen/pig-udf-numerics).
+Requires custom written user-defined functions for Apache Pig, accessible at [pig-udf-numerics](https://github.com/mmadsen/pig-udf-numerics).
+
+Requires UDF's from the LinkedIn `DataFu` library, accessible at [DataFu](http://data.linkedin.com/opensource/datafu).  
+
+Jar files for both as used in this analysis are also located in the `lib/` subdirectory.  
+
 
 ## Raw Data Note ##
 
@@ -17,7 +22,15 @@ make the exact files available (by FTP or SSH to your selected storage server). 
 
 If you do not need to replicate the experiment, or see the intermediate data files, the results of running every step in the section "Replicating the Experiment" live in:
 
-`data/classification-experiment-neutral-dataset.csv`
+`data/classification-experiment-neutral-dataset-fullrows.csv`
+
+and 
+
+`data/classification-experiment-neutral-dataset-grouped.csv`
+
+and associated `.rda` files for the R binary representation.
+
+__NOTE__:  Unfortunately, the file sizes exceed Github's maximum allowable file size, so they're not present in this repository.  I'll be archiving them at Figshare, instead, and providing links.  So you'd download them from Figshare, copy them to the `data/` directory, and then proceed with the analysis.  Sorry, that's the only way this works right now.  
 
 These data were used in the preparation of my dissertation and associated publications.  
 

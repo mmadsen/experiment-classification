@@ -39,6 +39,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 7019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[1] \"classification_id\"             \"simulation_run_id\"             \"dimensionality\"                \"sample_size\"                  \n [5] \"population_size\"               \"mutation_rate\"                 \"classification_type\"           \"classification_coarseness\"    \n [9] \"num_records_aggregated\"        \"mean_class_richness\"           \"sd_class_richness\"             \"mean_class_iqv\"               \n[13] \"sd_class_iqv\"                  \"mean_class_entropy\"            \"sd_class_entropy\"              \"mean_design_space_occupation\" \n[17] \"sd_design_space_occupation\"    \"mean_class_neutrality_slatkin\" \"sd_class_neutrality_slatkin\"   \"mean_trait_richness\"          \n[21] \"sd_trait_richness\"             \"mean_trait_entropy\"            \"sd_trait_entropy\"              \"mean_trait_iqv\"               \n[25] \"sd_trait_iqv\"                  \"mean_trait_neutrality_slatkin\" \"sd_trait_neutrality_slatkin\"   \"theta\"                        \n[29] \"theta_factor\"  ",
+			"settings":
+			{
+				"buffer_size": 951,
+				"line_ending": "Unix",
+				"name": "[1] \"classification_id\"             \"simulation_ru"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -161,8 +178,63 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2144,
+								2144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								929,
+								929
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[1] \"classification_id\"             \"simulation_ru",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -246,7 +318,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 260.0,
+	"side_bar_width": 402.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
