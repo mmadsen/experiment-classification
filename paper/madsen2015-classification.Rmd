@@ -1,0 +1,38 @@
+
+```{r libraries, echo=FALSE, cache=FALSE} 
+library(ggplot2) 
+library(randtoolbox) 
+library(xtable) 
+library(dplyr)
+library(magrittr)
+options(tikzDefaultEngine = "xetex")
+```
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. Duis dapibus ante sed gravida imperdiet. Aenean dapibus augue nec vehicula rhoncus. Mauris ac fermentum ante, eget volutpat lectus. Nunc a est auctor, suscipit augue vel, vulputate lectus. Sed eu elit ullamcorper, interdum neque ut, varius nisi. Phasellus leo justo, mattis rutrum leo vitae, consequat auctor diam. Vivamus cursus, ligula et euismod iaculis, odio nulla ullamcorper ex, vitae cursus mi lacus at sem. Aenean dictum odio dolor, sit amet gravida sem scelerisque vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi.[@bar2002upper;@d2011evolution;@guy2005mosaic].  
+
+# Theory
+
+\begin{equation}\label{eq:axelrod}p(i,j) = \frac{1}{F} \sum_{f=1}^{F} \delta_{\sigma_f(i)\sigma_f(j)}\end{equation}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. Duis dapibus ante sed gravida imperdiet. Aenean dapibus augue nec vehicula rhoncus. Mauris ac fermentum ante, eget volutpat lectus. Nunc a est auctor, suscipit augue vel, vulputate lectus. Sed eu elit ullamcorper, interdum neque ut, varius nisi. Phasellus leo justo, mattis rutrum leo vitae, consequat auctor diam. Vivamus cursus, ligula et euismod iaculis, odio nulla ullamcorper ex, vitae cursus mi lacus at sem. Aenean dictum odio dolor, sit amet gravida sem scelerisque vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi.
+
+# Materials and Methods
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. Duis dapibus ante sed gravida imperdiet. Aenean dapibus augue nec vehicula rhoncus. Mauris ac fermentum ante, eget volutpat lectus. Nunc a est auctor, suscipit augue vel, vulputate lectus. Sed eu elit ullamcorper, interdum neque ut, varius nisi. Phasellus leo justo, mattis rutrum leo vitae, consequat auctor diam. Vivamus cursus, ligula et euismod iaculis, odio nulla ullamcorper ex, vitae cursus mi lacus at sem. Aenean dictum odio dolor, sit amet gravida sem scelerisque vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi.
+
+# Results
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. Duis dapibus ante sed gravida imperdiet. Aenean dapibus augue nec vehicula rhoncus. Mauris ac fermentum ante, eget volutpat lectus. Nunc a est auctor, suscipit augue vel, vulputate lectus. Sed eu elit ullamcorper, interdum neque ut, varius nisi. Phasellus leo justo, mattis rutrum leo vitae, consequat auctor diam. Vivamus cursus, ligula et euismod iaculis, odio nulla ullamcorper ex, vitae cursus mi lacus at sem. Aenean dictum odio dolor, sit amet gravida sem scelerisque vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi.
+
+
+# Discussion
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. Duis dapibus ante sed gravida imperdiet. Aenean dapibus augue nec vehicula rhoncus. Mauris ac fermentum ante, eget volutpat lectus. Nunc a est auctor, suscipit augue vel, vulputate lectus. Sed eu elit ullamcorper, interdum neque ut, varius nisi. Phasellus leo justo, mattis rutrum leo vitae, consequat auctor diam. Vivamus cursus, ligula et euismod iaculis, odio nulla ullamcorper ex, vitae cursus mi lacus at sem. Aenean dictum odio dolor, sit amet gravida sem scelerisque vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi.
+
+
+# Acknowledgements
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. 
+

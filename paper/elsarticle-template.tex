@@ -1,0 +1,175 @@
+\documentclass[reprint,titlepage,authoryear,11pt]{elsarticle}
+
+\usepackage[margin=1.25in]{geometry}
+
+\def\doctitle{Equifinality in Identifying Modes of Cultural Transmission in Heterogeneous Populations}
+
+
+
+%%%%%%%%%% Remove the following before submission %%%%%%%%%%%%%%%%%%
+
+% define before mathspec
+\usepackage{amsmath}
+
+\usepackage{mathspec,xltxtra,xunicode}
+\defaultfontfeatures{Scale=MatchLowercase}
+\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}
+\setsansfont[Mapping=tex-text]{ITC Legacy Sans Std Medium}
+\setmonofont{Bitstream Vera Sans Mono}
+\setmathfont(Digits,Latin,Greek)[Script=Math,Uppercase=Italic,Lowercase=Italic]{Minion Math}
+\setmathfont[range={\mathbfup->\mathup}]{MinionMath-Semibold.otf}
+\setmathfont[range={\mathbfit->\mathit}]{MinionMath-Semibold.otf}
+\setmathfont[range={\mathit->\mathit}]{MinionMath-Regular.otf}
+
+
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+\usepackage{lineno}
+\setcitestyle{aysep={}}
+
+\usepackage{madsen-packages}
+\usepackage{madsen-macros}
+
+%Editing and annotation Packages
+\usepackage[author=,draft]{fixme}
+%Version control with GIT
+\usepackage[]{gitinfo}
+
+
+\usepackage[xetex,bookmarks=true,linkcolor=blue,hyperfootnotes=false,breaklinks=true,citecolor=blue,colorlinks=true]{hyperref}
+\hypersetup{pdftitle={\doctitle},pdfauthor={Mark E. Madsen}}
+
+
+\journal{Journal of Archaeological Science}
+
+
+
+
+\begin{document}
+
+\newtheorem{resquestion}{Research Question}
+
+
+
+\begin{frontmatter}
+
+
+\title{\doctitle\tnoteref{t1}}
+\tnotetext[t1]{Revision: \gitAbbrevHash~(\gitAuthorDate)}
+
+
+\author{Mark E. Madsen}
+
+\address{Department of Anthropology, Box 353100, University of Washington, Seattle WA, 98195 USA}
+\ead{mark@madsenlab.org}
+\ead[url]{http://madsenlab.org}
+
+\begin{abstract}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim dignissim nunc, et finibus urna aliquam eget. Donec enim dolor, aliquam sed iaculis vitae, vestibulum sed justo. Curabitur fringilla, mauris quis ultrices mattis, neque libero volutpat nisi, vel mollis mi magna a felis. Phasellus a orci ut elit sodales tristique ac placerat nisi. Maecenas orci purus, ullamcorper non neque vel, imperdiet sollicitudin ante. Duis dapibus ante sed gravida imperdiet. Aenean dapibus augue nec vehicula rhoncus. Mauris ac fermentum ante, eget volutpat lectus. Nunc a est auctor, suscipit augue vel, vulputate lectus. Sed eu elit ullamcorper, interdum neque ut, varius nisi. Phasellus leo justo, mattis rutrum leo vitae, consequat auctor diam. Vivamus cursus, ligula et euismod iaculis, odio nulla ullamcorper ex, vitae cursus mi lacus at sem. Aenean dictum odio dolor, sit amet gravida sem scelerisque vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi.\end{abstract}
+
+
+
+%\begin{keyword}
+%cultural transmission \sep Wright-Fisher model \sep time-averaging \sep neutral theory
+%\MSC[2010]{91D99}
+%\end{keyword}
+
+
+
+
+
+\end{frontmatter}
+
+\clearpage
+%\setcounter{tocdepth}{3} 
+%\renewcommand\contentsname{Proposal Outline}
+%\tableofcontents 
+%
+%\linenumbers
+%\clearpage
+%% main text
+
+
+
+$body$
+
+
+%% References with bibTeX database:
+
+\bibliographystyle{humanbio}
+\bibliography{$biblio-files$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END OF TEXT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+%% \section{}
+%% \label{}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%%
+%%  \citept{key}  ==>>  Jones et al. (1990)
+%%  \citepp{key}  ==>>  (Jones et al., 1990)
+%%
+%% Multiple citations as normal:
+%% \citepp{key1,key2}         ==>> (Jones et al., 1990; Smith, 1989)
+%%                            or  (Jones et al., 1990, 1991)
+%%                            or  (Jones et al., 1990a,b)
+%% \citep{key} is the equivalent of \citept{key} in author-year mode
+%%
+%% Full author lists may be forced with \citept* or \citepp*, e.g.
+%%   \citepp*{key}            ==>> (Jones, Baker, and Williams, 1990)
+%%
+%% Optional notes as:
+%%   \citepp[chap. 2]{key}    ==>> (Jones et al., 1990, chap. 2)
+%%   \citepp[e.g.,][]{key}    ==>> (e.g., Jones et al., 1990)
+%%   \citepp[see][pg. 34]{key}==>> (see Jones et al., 1990, pg. 34)
+%%  (Note: in standard LaTeX, only one note is allowed, after the ref.
+%%   Here, one note is like the standard, two make pre- and post-notes.)
+%%
+%%   \citepalt{key}          ==>> Jones et al. 1990
+%%   \citepalt*{key}         ==>> Jones, Baker, and Williams 1990
+%%   \citepalp{key}          ==>> Jones et al., 1990
+%%   \citepalp*{key}         ==>> Jones, Baker, and Williams, 1990
+%%
+%% Additional citation possibilities
+%%   \citepauthor{key}       ==>> Jones et al.
+%%   \citepauthor*{key}      ==>> Jones, Baker, and Williams
+%%   \citepyear{key}         ==>> 1990
+%%   \citepyearpar{key}      ==>> (1990)
+%%   \citeptext{priv. comm.} ==>> (priv. comm.)
+%%   \citepnum{key}          ==>> 11 [non-superscripted]
+%% Note: full author lists depends on whether the bib style supports them;
+%%       if not, the abbreviated list is printed even when full requested.
+%%
+%% For names like della Robbia at the start of a sentence, use
+%%   \citept{dRob98}         ==>> Della Robbia (1998)
+%%   \citepp{dRob98}         ==>> (Della Robbia, 1998)
+%%   \citepauthor{dRob98}    ==>> Della Robbia
+
+
+%% 
+
+\clearpage
+
+% \clearpage
+% %
+% \begin{figure*}
+% \centering
+% 	\includegraphics[]{images/lipo-pfg-study-area-PFG-subdivisions.pdf}
+% 	\caption{Subdivision of the \citet{PFG1951} study area into arbitrary analytic units by James Ford.  Reproduced with permission from \citet[Figure 2.3]{Lipo2001b}.}
+% 	\label{fig:study-area}
+% \end{figure*}
+%
+
+
+\end{document}
+
+%%
+%% End of file `elsarticle-template-2-harv.tex'.
